@@ -32,38 +32,6 @@
             "favFoods",
             "favFoods.json"
           ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "dessertVoting",
-            "dessertVoting.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "describeYou",
-            "describeYou.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "favExercises",
-            "favExercises.json"
-          ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "mobileNav",
-            "mobileNav.json"
-          ]
         }
       ],
       "configxml": null,
