@@ -27,6 +27,24 @@
         "Elements",
         "btnLogin.json"
       ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "loginCU",
+        "Elements",
+        "btnNextForm.json"
+      ]
+    },
+    {
+      "!type": "External",
+      "file": [
+        "forms",
+        "loginCU",
+        "Elements",
+        "inptPassword.json"
+      ]
     }
   ],
   "class": "",
