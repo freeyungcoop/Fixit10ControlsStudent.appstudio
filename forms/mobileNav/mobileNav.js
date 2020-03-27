@@ -2,7 +2,22 @@
 hmbMenu.onclick=function(s){
   if (typeof(s) == "object") 
     return
-  /* add a switch here to take the user to the form
-     they chose. 
-  */
+    switch(a) {
+  case "Login":
+    ChangeForm(loginCU)
+    break
+  case "Favorite Exercises":
+    ChangeForm(favExercises)
+    break
+  case "Describe You":
+    ChangeForm(describeYou)
+    break
+  case "Dessert Voting"
+    ChangeForm(dessertVoting)
+    break
+  case "Favorite Foods":
+    ChangeForm(favFoods)
+    break
+  }
 }
+

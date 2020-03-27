@@ -3,9 +3,8 @@ var dessertList = ['Chocolate Cake','Cream Brulee','Cheesecake',
 
 dessertVoting.onshow=function(){
     drpDesserts.clear()   
-  /* add a loop here that adds all the desserts in the array 
-     to the dropdown.
-  */
+    for (i=0; i <= dessertList.length - 1; i++)
+      drpDessers.addItem(dessertList[i])
 }
 
 
@@ -15,8 +14,6 @@ drpDesserts.onclick=function(){
     if (typeof(s) == "object")   
       return                    
     else {  // the user picked something
-        /* add code here to get item user chose and output 
-        it in a label, using a literal.
-        */
+        lblDessert.value = ("You picked" + choice + "that's a great choice!!"
     }
 }
