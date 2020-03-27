@@ -56,14 +56,6 @@
             "favExercises",
             "favExercises.json"
           ]
-        },
-        {
-          "!type": "External",
-          "file": [
-            "forms",
-            "mobileNav",
-            "mobileNav.json"
-          ]
         }
       ],
       "configxml": null,
